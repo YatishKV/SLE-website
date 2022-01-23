@@ -1,10 +1,7 @@
 from flask import Blueprint,render_template,request
 import smtplib, ssl
 import os
-#from dotenv import dotenv_values
-#config = dotenv_values(".env")
 
-s3_handler = S3Handler(os.environ.get("USERNAME"),os.environ.get("PASSWORD"))
 
 views=Blueprint(__name__,"views")
 
