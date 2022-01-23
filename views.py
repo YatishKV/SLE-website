@@ -3,18 +3,18 @@ import smtplib, ssl
 import os
 #from dotenv import dotenv_values
 #config = dotenv_values(".env")
-
+from boto.s3.connection import S3Connection
+s3 = S3Connection(os.environ['USERNAME'], os.environ['PASSEORD'])
+#s3_handler = S3Handler(os.environ.get("USERNAME"),os.environ.get("PASSWORD"))
 
 views=Blueprint(__name__,"views")
 
 def send_email(name,phone_no,email,message):
     port = 465  # For SSL
     smtp_server = "smtp.gmail.com"
-    #sender_email = config["USERNAME"]  # Enter your address
     receiver_email = email  # Enter receiver address
-    #password = config["PASSWORD"]
-    sender_email = os.environ.get("USERNAME")
-    password = os.environb.get("PASSWORD")
+    sender_email = os.environ['USERNAME']
+    password = os.environ["PASSWORD"]
     message = """\
     Sri Lakshmi Enterprices
 
