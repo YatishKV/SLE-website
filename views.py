@@ -4,6 +4,7 @@ import os
 #from dotenv import dotenv_values
 #config = dotenv_values(".env")
 
+
 views=Blueprint(__name__,"views")
 
 def send_email(name,phone_no,email,message):
@@ -27,7 +28,7 @@ def send_email(name,phone_no,email,message):
         with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message)
-    except: pass
+    except: return
 
 @views.route("/")
 def home():
