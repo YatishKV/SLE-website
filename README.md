@@ -4,7 +4,7 @@
 
  Technologies used:
  * [flask](https://flask.palletsprojects.com/en/2.0.x/)
- * [HTML template](https://html.design/)
+ * [HTML template](https://www.free-css.com/)
 
  ## Getting started
 
