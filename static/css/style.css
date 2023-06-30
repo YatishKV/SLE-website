@@ -412,7 +412,7 @@ ul.like li {display: inline-block;}
 ul.like li a {display: inline-block; color: #3c3c3c;}
 ul.like li img {padding: 0px 10px 0px 40px;}
 
-/** secend section **/
+/** second section **/
 
 .position_box {position: absolute; bottom: 0; padding: 0px 20px 20px 20px;}
 .withi_color {color: #081553;}
@@ -420,7 +420,7 @@ ul.like li img {padding: 0px 10px 0px 40px;}
 ul.withi_color li a {color: #081553;}
 ul.withi_color {float: left; padding-left: 40px;}
 
-/** end secend section **/
+/** end second section **/
 
 
 
@@ -457,11 +457,11 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
 /** Testimonial section **/
 
 .Testimonial {
-     background: url(../images/test_bg.png);
-     background-repeat: no-repeat;
-    padding: 60px 0px;
-     background-position: center;
-     background-size: 100% 100%;
+     background: url(../images/our_img4_2.png),url(../images/our_img5.png);
+     background-position: left, right;
+     background-repeat: no-repeat,no-repeat ;
+     background-size: 50% 100%;
+     padding: 60px 0px;
 }
 .Testimonial .titlepage {text-align: left; padding-bottom: 15px;}
 .Testimonial .titlepage h2 {
