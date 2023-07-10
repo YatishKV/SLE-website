@@ -1,6 +1,6 @@
 # SLE-website
 
-### For live demo [click here](https://sri-lakshmi-enterprices.herokuapp.com/)
+
 
  Technologies used:
  * [flask](https://flask.palletsprojects.com/en/2.0.x/)
@@ -21,5 +21,3 @@
  To start the development server, run the app.py file
 
 
- ### Additional Tools for testing
- * [Postman](https://www.postman.com)
